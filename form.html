@@ -13,15 +13,50 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="aboutus.html">Our Story</a></li>
 <li><a href="whatwedo.html">What We Do</a></li>
-<li><a href="form.html">Schedule an Appointment</a></li>
+<li><a href="form.html">Contact Us</a></li>
 </ul>
 </nav>
+
+
+<form action="action.php" target="_blank">
+  <img src="maintenance.jpg" alt="Man doing some repairs on a motorcycle" width="200" height="300"><br>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email Address:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="dob">Date of Birth:</label><br>
+  <input type="text" id="dob" name="dob"><br>
+  <label for="phonenumber">Phone Number:</label><br>
+  <input type="text" id="phonenumber" name="phonenumber"><br><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="nonbinary" name="gender" value="nonbinary">
+  <label for="nonbinary">Non-Binary</label><br><br>
+  <label for="reasons">Reason for Filling Out Form:</label><br>
+<select id="reasons" name="reasons">
+  <option value="cyclerepair">Motorcycle Repairs</option>
+  <option value="custombuilds">Custom Builds</option>
+  <option value="question">I have a question</option>
+</select><br><br>
+<textarea name="message" rows="10" cols="30">
+  Hello! What can we do for you?
+  </textarea><br><br>
+  <input type="checkbox" id="contact1" name="contact1" value="Phone">
+  <label for="contact1">Contact Me By Phone</label><br>
+  <input type="checkbox" id="contact2" name="contact2" value="Email">
+  <label for="contact2">Contact Me Through Email</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
 <footer>
-  <a href="https://twitter.com/" a target="_blank">
+  <a href="https://twitter.com/" target="_blank">
     <img alt="Twitter logo" src="twitterlogo.png"
     width="50" height="50">
   </a>
-<a href="https://www.facebook.com/" a target="_blank">
+<a href="https://www.facebook.com/" target="_blank">
   <img alt="Facebook logo" src="facebooklogo.png" 
   width="50" height="50">
 </a>
